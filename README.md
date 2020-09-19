@@ -1,6 +1,6 @@
 ## [archer](https://github.com/fi3ework/hexo-theme-archer)
 
-> 无法直接push到github仓库，固做一些备份处理。
+> 无法直接push到github仓库，固做一些备份处理
 
 ### 操作
 
