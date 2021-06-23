@@ -4,7 +4,7 @@ date: 2021-06-23 14:52:19
 tags:
 - javascript
 categories:
-- bugfix
+- [bugfix]
 ---
 
 # RegExp Lookbehind 反向定言 兼容
@@ -40,12 +40,12 @@ function formatPercent(num, type: FormatPercentType = 'multiply', decimal = 2) {
 
 ### chrome浏览器运行
 运行是正常的
-![$attrs](/intro/bugfix_regexp_chrome.png)
+![$attrs](./bugfix_regexp_chrome.png)
 
 ### safari浏览器运行
 发现报错
-![$attrs](/intro/bugfix_regexp_safari.png)
+![$attrs](./bugfix_regexp_safari.png)
 
 这是因为**?<=**和**?<!** 这类反向定言正则属于ES9阶段。目前兼容性还不是很好，babel也不能处理这个情况。
 
-![$attrs](/intro/bugfix_can_i_use.png)
+![$attrs](./bugfix_can_i_use.png)
